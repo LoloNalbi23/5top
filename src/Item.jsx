@@ -18,7 +18,6 @@ return(
                             <p>{p.name}</p>
                             <p>{p.price}</p>
                             <p>{p.cat}</p>
-                            <p>{p.Id}</p>
                             <button onClick={() => eliminarl(p.Id)}>Eliminar</button>
                         </div>
                     </div>

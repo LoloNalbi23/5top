@@ -77,7 +77,6 @@ function Lista_super() {
                             <p>{p.name}</p>
                             <p>{p.price}</p>
                             <p>{p.cat}</p>
-                            <p>{p.Id}</p>
                             <button className="btncompra" onClick={() => comprar(p.Id)}>Comprar</button>
                             <button onClick={() => eliminarl(p.Id)}>Eliminar</button>
                         </div>
